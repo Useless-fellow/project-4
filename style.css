@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    border: 10px solid;   
+}
+.u{
+    display: flex;
+    border-color: #0085FE ;
+    border-style: none;
+    border-width: 1px;
+
+     }
+ 
+ .userli{
+    background-color: #0085FE;
+    color:white;
+    width: 100%;
+    padding: 0px 10px 20px 20px;
+ }
+ .card{
+     margin-top: 40px;
+     margin-left: 40px;
+     width: 300px;
+     height: 300px;
+     background-color:#263B42!important;
+ }
+ .card-body{
+     background-color: #9AEFF4!important;
+ }
+ .card-img-top{
+     width: auto;
+     height: 300px;
+     margin: auto;
+     border: 2px solid aqua !important;
+ }
